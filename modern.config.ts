@@ -7,4 +7,18 @@ export default defineConfig({
   server: {
     port: 3002,
   },
+  tools: {
+    devServer: {
+      headers: {
+        'Access-Control-Allow-Headers': '*',
+      },
+    },
+  },
+  dev: {
+    server: {
+      headers: {
+        'Access-Control-Allow-Headers': '*'
+      }
+    }
+  }
 });
