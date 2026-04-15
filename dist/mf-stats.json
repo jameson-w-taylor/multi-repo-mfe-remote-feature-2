@@ -1,0 +1,106 @@
+{
+  "id": "remote_feature_2",
+  "name": "remote_feature_2",
+  "metaData": {
+    "name": "remote_feature_2",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "remote_feature_2"
+    },
+    "remoteEntry": {
+      "name": "static/js/remote_feature_2.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "@mf-types.zip",
+      "api": "@mf-types.d.ts"
+    },
+    "globalName": "remote_feature_2",
+    "pluginVersion": "2.3.2",
+    "prefetchInterface": false,
+    "publicPath": "http://localhost:3002/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "remote_feature_2:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/vendors-node_modules_react-dom_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "remote_feature_2:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/vendors-node_modules_react_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "."
+      ],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": ".",
+      "id": "remote_feature_2:.",
+      "name": ".",
+      "requires": [
+        "react"
+      ],
+      "file": "src/components/ProviderComponent.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/vendors-node_modules_react_jsx-dev-runtime_js.js",
+            "static/js/async/__federation_expose_default_export.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "static/css/async/__federation_expose_default_export.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}
